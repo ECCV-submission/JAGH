@@ -1,9 +1,24 @@
-<h1 align = "center">Multi-View Graph Convolutional Networks with Attention Mechanism</h1>
+<h1 align = "center">Joint-modal Adaptive Graph-Enhancing Hashing for Unsupervised Cross-modal Retrieval</h1>
 
 <h1 align = "center">Abstract</h1> 
 
-Recent advances in graph convolutional networks (GCNs), mainly focusing on how to exploit the information from different hops of neighbors in an efficient way, have brought substantial improvement on many graph data modelling tasks. Most of the existing GCN-based models however are built on the basis of a fixed adjacency matrix, i.e., a single view topology of the underlying graph. That inherently limits the expressive power of the developed models when the given adjacency matrix that is viewed as an approximation of the unknown graph topology does not fully reflect the `ideal' structure knowledge. In this paper, we propose a novel framework, termed Multiview Graph Convolutional Networks with Attention Mechanism (MAGCN), by incorporating multiple views of topology and attention based feature aggregation strategy into the computation of graph convolution. Furthermore, we present some theoretical analysis about the expressive power and flexibility of MAGCN, which provides a general explanation on why multi-view based methods can potentially outperform the ones relying on a single view. Our experimental study demonstrates the state-of-the-art accuracies of MAGCN on Cora, Citeseer, and Pubmed datasets. Robustness analysis is also given to show the advantage of MAGCN in handling some uncertainty issues in node classification tasks.
+Recent unsupervised deep cross-modal hashing retrieval methods have shown promising retrieval performance. However, existing methods  cannot sufficiently leverage semantic structures and correlations among instances to optimize semantic representation for unsupervised cross-modal retrieval. In this paper, we propose a novel unsupervised deep cross-modal hashing method termed Joint-modal Adaptive Graph-Enhancing Hashing for large-scale unsupervised cross-modal retrieval. First, we construct a joint-modal similarity matrix to fully and efficiently preserve neighborhood structures from different modality pre-trained features. Second, we adopt Graph Convolutional Network (GCN) to enhance the semantic representation and capture semantic structures for different modalities. In GCN, we proposed the adaptive adjacency matrix largely improve the model flexibility which is updated dynamically through learning. Extensive experiments demonstrate the superiority of JAGEH  on three public datasets NUS-WIDE, MIRFlickr and WIKI.
 
-<h1 align = "center">Motivation</h1>
+<h1 align = "center">Pileline</h1>
 
-Despite that GCN and its variants/extensions have shown their great success on node classification tasks, almost all of these models are developed based on a fixed adjacency matrix given in advance, in other words, a single view graph topology. Inherently, the expressive power of the resulted model may be limited due to the potential information discrepancy between the adjacency matrix and the (unknown) target one. As such, it is logical to consider two practical questions: 
+<div align="center">
+    <img src="images/main.png" width="100%" height ="100%" alt="MAGCN.jpg" />
+</div>
+<p align = 'center'>
+<small> Figure 1. The Pileline of JAGEH. </small>
+</p>
+
+<h1 align = "center">Result</h1>
+
+<div align="center">
+    <img src="images/result.png" width="100%" height ="100%" alt="MAGCN.jpg" />
+</div>
+<p align = 'center'>
+<small> Figure 1. The Pileline of JAGEH. </small>
+</p>
+
