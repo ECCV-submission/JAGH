@@ -13,4 +13,4 @@ Joint-modal Adaptive Graph-Enhancing Hashing for Unsupervised Cross-modal Retrie
 ### Datasets
 For datasets, we provide Wiki and MIRFLICKR25 here:
 - Wikipedia articles, [Link](http://www.svcl.ucsd.edu/projects/crossmodal/)
-- MIRFLICKR25K, [[OneDrive](https://pkueducn-my.sharepoint.com/:f:/g/personal/zszhong_pku_edu_cn/EpLD8yNN2lhIpBgQ7Kl8LKABzM68icvJJahchO7pYNPV1g?e=IYoeqn)], [[Baidu Pan](https://pan.baidu.com/s/1o5jSliFjAezBavyBOiJxew), password: 8dub]
+- MIRFLICKR25K, [[OneDrive](https://pkueducn-my.sharepoint.com/:f:/g/personal/zszhong_pku_edu_cn/EpLD8yNN2lhIpBgQ7Kl8LKABzM68icvJJahchO7pYNPV1g?e=IYoeqn)]
